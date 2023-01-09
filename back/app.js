@@ -26,7 +26,6 @@ mongoose.connect('mongodb+srv://opcpiquante:Lbch6R87WhoqAQdO@cluster0.au1uftb.mo
   
 app.use('/images', express.static(path.join(__dirname, 'images')));
 app.use('/api/sauces', sauceRoute);
-// app.use('/api/user', userRoute);
 app.use('/api/auth', userRoute);
 
 
